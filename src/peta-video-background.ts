@@ -11,11 +11,13 @@ export class PETAVideoBackground {
   } = {
     default: {
       "desktop-video":
-        "https://apps.4sitestudios.com/fernando/peta/videos/third.mp4",
+        "https://player.vimeo.com/progressive_redirect/download/913482260/rendition/720p/dogs_in_danger:_the_iditarod_should_end_now%20%28720p%29.mp4?loc=external&signature=5251d9ce0d3ff96b90146520a0ab0aaf5636f9958fc43b43a741db6e541897fa",
       "mobile-video":
-        "https://apps.4sitestudios.com/fernando/peta/videos/clip_16x9.mp4",
-      "desktop-poster": "https://picsum.photos/900/1600",
-      "mobile-poster": "https://picsum.photos/1600/900",
+        "https://player.vimeo.com/progressive_redirect/download/913481169/rendition/720p/dogs_in_danger:_the_iditarod_should_end_now%20%28720p%29.mp4?loc=external&signature=21d16a1c078ec7719a4f2072e1895bb772572cff8446583ac6ae8c2764ddd273",
+      "desktop-poster":
+        "https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10003/IDI24-Clip+1+Image+9x16.png",
+      "mobile-poster":
+        "https://acb0a5d73b67fccd4bbe-c2d8138f0ea10a18dd4c43ec3aa4240a.ssl.cf5.rackcdn.com/10003/IDI24-Clip+1+Image+16x9.png",
     },
   };
   private _video: VideoOption | false = false;
